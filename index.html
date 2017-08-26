@@ -26,13 +26,24 @@
         display: inline-block;
         height: 36px;
       }
+      .social-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+      .social-list > li {
+        dispay: inline-block;
+      }
 
       /* BIO STYLES */
       .bio-wrapper {
-        background-color: #c0e0c3;
+        font-size: 24px;
+        overflow: hidden;
+
+        /*background-color: #c0e0c3;
         font-size: 24px;
         height: 300px;
-        overflow: scroll;
+        overflow: scroll;*/
       }
       .bio-wrapper:after {
         visibility: hidden;
@@ -47,6 +58,7 @@
         box-sizing: border-box;
         float: left;
         font-size: 1rem;
+        margin: 3%;
         padding: 2%;
         width: 25%;
       }
@@ -64,7 +76,7 @@
   <body>
     <div class="full-hero hero-home">
       <h1>I'm an h1</h1>
-      <ul>
+      <ul class="social-list">
         <li>
           <a href="http://example.com/" class="social-link">Link</a>
         </li>
