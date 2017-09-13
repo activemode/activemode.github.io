@@ -1,5 +1,21 @@
 <head>
+{% if page.title %}
+  <title>{{ page.title }} | Test Page</title>
+{% else %}
   <title>Test Page: Don't Panic</title>
+{% endif %}
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+{% else %}
+  <meta name="description" content="This is a dangerous site.">
+{% endif %}
+<!-- start meta data for linking -->
+  <meta property="og:url" content="http://www.activemode.net" />
+  <meta property="og:type" content="sample website" />
+  <meta property="og:title" content="Activemode Network" />
+  <meta property="og:description" content="These days, we have to look for more information and add it to our skillset, especially when we have work to do, and not enough money to pay someone else to do it..." />
+  <meta property="og:image" content="http://www.activemode.net/images/Business-Man-Working-Wirelessl-18726071.jpg" />
+  <!-- end meta data for linking -->
   <link href="/favicon.png" rel="icon">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta charset="utf-8">
