@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Num 2 This is the title of the post
+title: Num 2 Title of the 2md post
 postHero: /images/shark.jpg
 author: Me, Myself, and I
 authorTwitter: http://twitter.com/mhartl

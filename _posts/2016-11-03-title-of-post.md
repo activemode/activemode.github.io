@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Num 1 This is the title of the post
+title: Num 1 Title of the 1st post
 postHero: /images/shark.jpg
 author: Me, Myself, and I
 authorTwitter: http://twitter.com/mhartl
